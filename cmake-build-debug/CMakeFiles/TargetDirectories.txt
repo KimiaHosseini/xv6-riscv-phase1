@@ -1,0 +1,3 @@
+C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/cmake-build-debug/CMakeFiles/xv6_riscv.dir
+C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/cmake-build-debug/CMakeFiles/rebuild_cache.dir
