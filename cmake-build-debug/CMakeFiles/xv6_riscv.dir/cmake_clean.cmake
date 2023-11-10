@@ -29,6 +29,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/xv6_riscv.dir/user/forktest.c.obj"
   "CMakeFiles/xv6_riscv.dir/user/grep.c.obj"
   "CMakeFiles/xv6_riscv.dir/user/grind.c.obj"
+  "CMakeFiles/xv6_riscv.dir/user/history.c.obj"
   "CMakeFiles/xv6_riscv.dir/user/init.c.obj"
   "CMakeFiles/xv6_riscv.dir/user/kill.c.obj"
   "CMakeFiles/xv6_riscv.dir/user/ln.c.obj"

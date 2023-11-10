@@ -38,6 +38,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/user/forktest.c" "C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/cmake-build-debug/CMakeFiles/xv6_riscv.dir/user/forktest.c.obj"
   "C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/user/grep.c" "C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/cmake-build-debug/CMakeFiles/xv6_riscv.dir/user/grep.c.obj"
   "C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/user/grind.c" "C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/cmake-build-debug/CMakeFiles/xv6_riscv.dir/user/grind.c.obj"
+  "C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/user/history.c" "C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/cmake-build-debug/CMakeFiles/xv6_riscv.dir/user/history.c.obj"
   "C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/user/init.c" "C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/cmake-build-debug/CMakeFiles/xv6_riscv.dir/user/init.c.obj"
   "C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/user/kill.c" "C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/cmake-build-debug/CMakeFiles/xv6_riscv.dir/user/kill.c.obj"
   "C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/user/ln.c" "C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/cmake-build-debug/CMakeFiles/xv6_riscv.dir/user/ln.c.obj"

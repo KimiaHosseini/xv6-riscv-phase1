@@ -848,6 +848,30 @@ user/grind.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6_riscv.dir\build.make CMakeFiles/xv6_riscv.dir/user/grind.c.s
 .PHONY : user/grind.c.s
 
+user/history.obj: user/history.c.obj
+.PHONY : user/history.obj
+
+# target to build an object file
+user/history.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6_riscv.dir\build.make CMakeFiles/xv6_riscv.dir/user/history.c.obj
+.PHONY : user/history.c.obj
+
+user/history.i: user/history.c.i
+.PHONY : user/history.i
+
+# target to preprocess a source file
+user/history.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6_riscv.dir\build.make CMakeFiles/xv6_riscv.dir/user/history.c.i
+.PHONY : user/history.c.i
+
+user/history.s: user/history.c.s
+.PHONY : user/history.s
+
+# target to generate assembly for a file
+user/history.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6_riscv.dir\build.make CMakeFiles/xv6_riscv.dir/user/history.c.s
+.PHONY : user/history.c.s
+
 user/init.obj: user/init.c.obj
 .PHONY : user/init.obj
 
@@ -1283,6 +1307,9 @@ help:
 	@echo ... user/grind.obj
 	@echo ... user/grind.i
 	@echo ... user/grind.s
+	@echo ... user/history.obj
+	@echo ... user/history.i
+	@echo ... user/history.s
 	@echo ... user/init.obj
 	@echo ... user/init.i
 	@echo ... user/init.s

@@ -560,6 +560,9 @@
 		<Unit filename="C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/user/grind.sym">
 			<Option target="xv6_riscv"/>
 		</Unit>
+		<Unit filename="C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/user/history.c">
+			<Option target="xv6_riscv"/>
+		</Unit>
 		<Unit filename="C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/user/init.asm">
 			<Option target="xv6_riscv"/>
 		</Unit>

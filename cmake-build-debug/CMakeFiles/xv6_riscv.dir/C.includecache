@@ -1,0 +1,62 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/kernel/console.c
+stdarg.h
+-
+types.h
+C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/kernel/types.h
+param.h
+C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/kernel/param.h
+spinlock.h
+C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/kernel/spinlock.h
+sleeplock.h
+C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/kernel/sleeplock.h
+fs.h
+C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/kernel/fs.h
+file.h
+C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/kernel/file.h
+memlayout.h
+C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/kernel/memlayout.h
+riscv.h
+C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/kernel/riscv.h
+defs.h
+C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/kernel/defs.h
+proc.h
+C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/kernel/proc.h
+
+C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/kernel/defs.h
+
+C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/kernel/file.h
+
+C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/kernel/fs.h
+
+C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/kernel/memlayout.h
+
+C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/kernel/param.h
+
+C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/kernel/proc.h
+
+C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/kernel/riscv.h
+
+C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/kernel/sleeplock.h
+
+C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/kernel/spinlock.h
+
+C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/kernel/types.h
+
+C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/user/testHistory.c
+kernel/types.h
+C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/user/kernel/types.h
+kernel/stat.h
+C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/user/kernel/stat.h
+user.h
+C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/user/user.h
+
+C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/user/user.h
+
