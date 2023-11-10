@@ -681,3 +681,32 @@ procdump(void)
     printf("\n");
   }
 }
+
+void
+sysTop(struct top* top){
+    struct proc *p;
+    int count = top->total_process = 0;
+    int running = top->running_process = 0;
+    int sleeping = top->sleeping_process = 0;
+    for(p = proc; p < &proc[NPROC]; p++){
+        if(p->state == UNUSED)
+            continue;
+        if(p->state == RUNNING)
+            running++;
+        if(p->state == SLEEPING)
+            sleeping++;
+        acquire(&p->lock);
+        top->p_list[count].state = p->state;
+        strncpy(top->p_list[count].name, p->name, 16 * sizeof(char));
+        top->p_list[count].pid = p->pid;
+        if(p->parent != 0)
+            top->p_list[count].ppid = p->parent->pid;
+        else
+            top->p_list[count].ppid = 0;
+        count++;
+        release(&p->lock);
+    }
+    top->total_process = count;
+    top->running_process = running;
+    top->sleeping_process = sleeping;
+}

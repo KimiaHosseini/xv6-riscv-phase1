@@ -89,3 +89,18 @@ sys_uptime(void)
   release(&tickslock);
   return xticks;
 }
+
+uint64
+sys_top(void) {
+    struct top *top;
+    struct top kernelTop;
+    argaddr(0, (uint64 *)&top);
+    struct proc *p = myproc();
+    copyin(p->pagetable, (char *)top, (uint64)&kernelTop, sizeof(kernelTop));
+//    acquire(&tickslock);
+    sysTop(&kernelTop);
+    kernelTop.uptime = (long )sys_uptime();
+//    release(&tickslock);
+    copyout(p->pagetable, (uint64)top, (char *)&kernelTop, sizeof(kernelTop));
+    return 0;
+}

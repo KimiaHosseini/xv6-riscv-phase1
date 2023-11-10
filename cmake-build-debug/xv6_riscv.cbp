@@ -710,6 +710,9 @@
 		<Unit filename="C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/user/stressfs.sym">
 			<Option target="xv6_riscv"/>
 		</Unit>
+		<Unit filename="C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/user/top.c">
+			<Option target="xv6_riscv"/>
+		</Unit>
 		<Unit filename="C:/Users/Lenovo/Desktop/uni/TERM 5/OS/task/project/xv6-riscv/user/ulib.c">
 			<Option target="xv6_riscv"/>
 		</Unit>

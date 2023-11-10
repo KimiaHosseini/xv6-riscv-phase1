@@ -1088,6 +1088,30 @@ user/stressfs.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6_riscv.dir\build.make CMakeFiles/xv6_riscv.dir/user/stressfs.c.s
 .PHONY : user/stressfs.c.s
 
+user/top.obj: user/top.c.obj
+.PHONY : user/top.obj
+
+# target to build an object file
+user/top.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6_riscv.dir\build.make CMakeFiles/xv6_riscv.dir/user/top.c.obj
+.PHONY : user/top.c.obj
+
+user/top.i: user/top.c.i
+.PHONY : user/top.i
+
+# target to preprocess a source file
+user/top.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6_riscv.dir\build.make CMakeFiles/xv6_riscv.dir/user/top.c.i
+.PHONY : user/top.c.i
+
+user/top.s: user/top.c.s
+.PHONY : user/top.s
+
+# target to generate assembly for a file
+user/top.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\xv6_riscv.dir\build.make CMakeFiles/xv6_riscv.dir/user/top.c.s
+.PHONY : user/top.c.s
+
 user/ulib.obj: user/ulib.c.obj
 .PHONY : user/ulib.obj
 
@@ -1337,6 +1361,9 @@ help:
 	@echo ... user/stressfs.obj
 	@echo ... user/stressfs.i
 	@echo ... user/stressfs.s
+	@echo ... user/top.obj
+	@echo ... user/top.i
+	@echo ... user/top.s
 	@echo ... user/ulib.obj
 	@echo ... user/ulib.i
 	@echo ... user/ulib.s

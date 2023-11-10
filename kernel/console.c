@@ -63,6 +63,8 @@ struct {
     int currentHistory; //holds the current history view -> displacement from the last command index
 } historyBufferArray;
 
+int checkIndex(int index);
+
 //
 // user write()s to the console go here.
 //

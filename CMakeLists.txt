@@ -240,4 +240,4 @@ add_executable(xv6_riscv
         fs.img
         LICENSE
         Makefile
-        README user/history.c)
+        README user/history.c user/top.c)

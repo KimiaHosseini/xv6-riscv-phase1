@@ -39,6 +39,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/xv6_riscv.dir/user/rm.c.obj"
   "CMakeFiles/xv6_riscv.dir/user/sh.c.obj"
   "CMakeFiles/xv6_riscv.dir/user/stressfs.c.obj"
+  "CMakeFiles/xv6_riscv.dir/user/top.c.obj"
   "CMakeFiles/xv6_riscv.dir/user/ulib.c.obj"
   "CMakeFiles/xv6_riscv.dir/user/umalloc.c.obj"
   "CMakeFiles/xv6_riscv.dir/user/usertests.c.obj"
