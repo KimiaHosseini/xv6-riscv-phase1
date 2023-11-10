@@ -15,29 +15,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77fb6c81-7931-4e90-9406-970fc9d1d77c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/user/top.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/xv6_riscv.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/xv6_riscv.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/xv6_riscv.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/xv6_riscv.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/xv6_riscv.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/xv6_riscv.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/xv6_riscv.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/xv6_riscv.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/xv6_riscv.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/xv6_riscv.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/xv6_riscv.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/xv6_riscv.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kernel/console.c" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/console.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kernel/defs.h" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/defs.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kernel/proc.c" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/proc.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kernel/proc.h" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/proc.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kernel/syscall.c" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/syscall.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kernel/syscall.h" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/syscall.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kernel/sysproc.c" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/sysproc.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user.h" beforeDir="false" afterPath="$PROJECT_DIR$/user/user.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/usys.pl" beforeDir="false" afterPath="$PROJECT_DIR$/user/usys.pl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +94,7 @@
       <workItem from="1699614272181" duration="2559000" />
       <workItem from="1699617906240" duration="14000" />
       <workItem from="1699617948975" duration="7477000" />
-      <workItem from="1699627595505" duration="11026000" />
+      <workItem from="1699627595505" duration="18483000" />
     </task>
     <servers />
   </component>

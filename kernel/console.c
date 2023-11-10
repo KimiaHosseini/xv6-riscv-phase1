@@ -145,6 +145,30 @@ void shiftAndAdd(char arr[MAX_HISTORY][INPUT_BUF_SIZE], const char *newValue) {
     }
     strncpy(arr[MAX_HISTORY - 1], newValue, INPUT_BUF_SIZE);
     historyBufferArray.lengthsArr[MAX_HISTORY - 1] = strlen(newValue);
+    historyBufferArray.currentHistory = (int)historyBufferArray.lastCommandIndex;
+}
+
+void
+clearCurrentLine(void){
+    uint numToClear = cons.e - cons.r;
+    for (uint i = 0; i < numToClear; i++) {
+        consputc(BACKSPACE);
+    }
+    cons.e = cons.w;
+}
+
+void replaceHistoryCommand(uint index)
+{
+    if(index < 0 || index >= historyBufferArray.lastCommandIndex)
+        return;
+
+    clearCurrentLine();
+
+    for (int i = 0; i < historyBufferArray.lengthsArr[index]; i++) {
+        char c = historyBufferArray.bufferArr[index][i];
+        consputc(c);
+        cons.buf[cons.e++ % INPUT_BUF_SIZE] = c;
+    }
 }
 
 //
@@ -176,9 +200,23 @@ consoleintr(int c)
                 consputc(BACKSPACE);
             }
             break;
-//        case 'z':
-//            replace_history_command((int)historyBufferArray.lastCommandIndex-1);
-//            break;
+        case '\033':
+            c = uartgetc();
+            if (c == '[') {
+                c = uartgetc();
+                if (c == 'A') {
+                    replaceHistoryCommand(historyBufferArray.currentHistory);
+                    if(historyBufferArray.currentHistory != 0)
+                        historyBufferArray.currentHistory--;
+                    break;
+                } else if (c == 'B') {
+                    replaceHistoryCommand(historyBufferArray.currentHistory);
+                    if(historyBufferArray.currentHistory != historyBufferArray.lastCommandIndex - 1)
+                        historyBufferArray.currentHistory++;
+                    break;
+                }
+            }
+            break;
         default:
             if (c != 0 && cons.e - cons.r < INPUT_BUF_SIZE) {
                 char command[INPUT_BUF_SIZE];
@@ -206,6 +244,7 @@ consoleintr(int c)
                             uint index = historyBufferArray.lastCommandIndex;
                             strncpy(historyBufferArray.bufferArr[index],command, INPUT_BUF_SIZE);
                             historyBufferArray.lengthsArr[index] = strlen(command);
+                            historyBufferArray.currentHistory = (int)historyBufferArray.lastCommandIndex;
                             historyBufferArray.lastCommandIndex = historyBufferArray.lastCommandIndex + 1;
                             if(historyBufferArray.numOfCommandsInMem < 16)
                                 historyBufferArray.numOfCommandsInMem++;
